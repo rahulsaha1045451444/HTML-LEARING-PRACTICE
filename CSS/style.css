@@ -1,3 +1,8 @@
+@font-face {
+    font-family: montserrat;
+    src: url(/ASSETS/Montserrat-Black.woff2);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -10,10 +15,12 @@ body {
     height: 100%;
 }
 
-.video {
-    width: 300px;
-    height: 300px;
-    display: inline-flex;
+#covervid {
+    height: 100%;
+    width: 100%;
+    object-fit:cover ;
+    position: fixed;
+    z-index: -1;
 }
 
 #good {
