@@ -19,9 +19,93 @@
         </nav>
     </header>
     <main>
-        <div id="cover">
-            <video src="/ASSETS/pexels_videos_1851190 (1080p).mp4" autoplay loop muted></video>
-        </div>
+        <from action="/contact-me">
+
+            <label for="email">USER NAME: </label>
+            <input type="text" id="email" placeholder="emai id/username"> <br>
+            <label for="user_password">PASSWORD: </label>
+            <input type="password" placeholder="password"> <br>
+            <label for="date">DATE: </label>
+            <input type="date" id="date"><br>
+            <label for="file">FILE: </label>
+            <input type="file" id=""><br>
+            <label for="color">COLOUR PICKER: </label>
+            <input type="color"><br>
+            <label for="range">PRICE RANGE: </label>
+            <input type="range"><br>
+            <label for="button">POKE: </label>
+            <input type="button" value="poke"><br>
+            <label for="submit">SUBMIT: </label>
+            <input type="submit" value="submit">
+            <label for="reset">RESET: </label><br>
+            <input type="reset" value="reset"><br>
+            <hr>
+            <div>
+                <label for="male">MALE</label>
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="female">FEMALE</label>
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="other">OTHER</label>
+                <input type="radio" name="gender" id="other" value="other">
+            </div>
+            <hr>
+            <div>
+                <label for="HTML">HTML</label>
+                <input type="checkbox" name="LANGUAGE" id="HTML">
+                <label for="CSS">CSS</label>
+                <input type="checkbox" name="LANGUAGE" id="CSS">
+                <label for="JAVA">JAVA</label>
+                <input type="checkbox" name="LANGUAGE" id="JAVA">
+            </div>
+            <hr>
+            <div>
+                <select name="country" id="country">
+                    <option value="India">India</option>
+                    <option value="Bangladesh">Bangladesh</option>
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="Sri Lanka">Sri Lanka</option>
+                    <option value="Others">Others</option>
+                </select>
+                <hr>
+            </div>
+            <div>
+                <textarea name="feedback" id="feedback" cols="255" rows="10">
+        Please write your feedback
+    </textarea>
+            </div>
+            <hr>
+            <div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/rklidcZ-aLU?si=OH9ZLMsvatOoXEdt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </from>
+
+        <table border="2">
+            <caption style="font-size: 20px;"><b>LANGUAGE</b></caption>
+            <tr>
+                <th>LANG</th>
+                <th>COMPETENCY</th>
+                <th>TIME</th>
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <td>2/10</td>
+                <td>2 week</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>1/10</td>
+                <td>2 week</td>
+            </tr>
+            <tr>
+                <td>JAVA</td>
+                <td>0.1/10</td>
+                <td>2 week</td>
+            </tr>
+            <tr>
+                <td colspan="3">MY FIRST TABLE</td>
+            </tr>
+        </table>
+
         <section>
             <h2>TECH:PC/LAPTOP (SECTION)</h2>
             PCs and laptops are essential devices in today's digital age. They both serve as powerful tools for various
@@ -62,7 +146,12 @@
             Detergent!"
         </aside>
     </main>
-    <footer></footer>
+
+    <footer>
+        <div id="cover">
+            <video src="/ASSETS/pexels_videos_1851190 (1080p).mp4" height="150" width="150" autoplay loop muted></video>
+        </div>
+    </footer>
 </body>
 
 </html>
