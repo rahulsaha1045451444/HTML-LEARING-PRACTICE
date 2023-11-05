@@ -1,0 +1,43 @@
+h1 {
+    color: brown;
+}
+
+#heading {
+    font-size: larger;
+    color: rgba(128, 0, 248, 0.907);
+}
+
+#sa {
+    color: aqua;
+}
+
+p {
+    color: blue;
+}
+
+.asad {
+    color: rgb(218, 178, 18);
+}
+
+div p {
+    color: rgb(17, 170, 63);
+}
+
+h2 {
+    color: rgb(6, 47, 252);
+}
+
+#first,
+#second {
+    font-size: 2rem;
+    color: rgb(106, 21, 233);
+}
+
+#icon {
+    height: 500px;
+    width: 500px;
+    background-image: url(/IMAGES/images.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
