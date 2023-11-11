@@ -6,6 +6,20 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+#navbar{
+    height: 20px;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#navbar ul li{
+    color: rgb(255, 0, 212);
+    display: inline-block;
+}
+
 h1 {
     color: brown;
 }
@@ -56,7 +70,7 @@ h2 {
 }
 
 main {
-    background-color: rgba(250, 235, 215, 0.434);
+    background-color: rgba(238, 141, 13, 0.219);
 }
 
 #pro {
@@ -72,8 +86,11 @@ main {
 #box1 {
     height: 100px;
     width: 100px;
-    background-color: aqua;
+    background-color: rgb(0, 255, 204);
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #box2 {
@@ -81,6 +98,9 @@ main {
     width: 100px;
     background-color: rgb(0, 255, 26);
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #box3 {
@@ -88,6 +108,9 @@ main {
     width: 100px;
     background-color: rgb(255, 0, 208);
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #link {
@@ -100,13 +123,24 @@ main {
     text-align: center;
 }
 
-#outer{
+#outer {
     font-size: 25px;
 }
-#inner{
+
+#inner {
     font-size: 10px;
 }
 
-#ic{
+#ic {
     color: chocolate;
+}
+
+#disk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    background-color: black;
+    height: 200px;
+    width: 200px;
 }
