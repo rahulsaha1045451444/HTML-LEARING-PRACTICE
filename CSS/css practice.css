@@ -1,3 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 h1 {
     color: brown;
 }
@@ -34,10 +42,71 @@ h2 {
 }
 
 #icon {
-    height: 500px;
-    width: 500px;
+    height: 200px;
+    width: 200px;
     background-image: url(/IMAGES/images.jpeg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top right;
+}
+
+#bar {
+    background-color: rgba(229, 255, 127, 0.735);
+    color: rgba(0, 0, 255, 0.724);
+}
+
+main {
+    background-color: rgba(250, 235, 215, 0.434);
+}
+
+#pro {
+    height: 100px;
+    width: 100px;
+    background-image: url(/IMAGES/colin-horn-fR9U2S31Exs-unsplash.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+}
+
+#box1 {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    text-align: center;
+}
+
+#box2 {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(0, 255, 26);
+    text-align: center;
+}
+
+#box3 {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 0, 208);
+    text-align: center;
+}
+
+#link {
+    text-decoration: none;
+}
+
+#home h1 {
+    color: blue;
+    background-color: aqua;
+    text-align: center;
+}
+
+#outer{
+    font-size: 25px;
+}
+#inner{
+    font-size: 10px;
+}
+
+#ic{
+    color: chocolate;
 }
