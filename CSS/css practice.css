@@ -6,7 +6,24 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-#navbar{
+nav {
+    background-color: rgb(81, 255, 0);
+    height: 30px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #b701db;
+    text-transform: uppercase;
+}
+
+#navbar {
     height: 20px;
     width: 100%;
     background-color: aqua;
@@ -15,7 +32,7 @@
     justify-content: space-evenly;
 }
 
-#navbar ul li{
+#navbar ul li {
     color: rgb(255, 0, 212);
     display: inline-block;
 }
@@ -143,4 +160,14 @@ main {
     background-color: black;
     height: 200px;
     width: 200px;
+}
+
+#button {
+    height: 50px;
+    width: 50px;
+    padding: 10px 15px;
+    margin: 100px;
+    border: 2px double rgb(22, 6, 255);
+    border-radius: 25px;
+    background-color: rgb(243, 238, 238);
 }
