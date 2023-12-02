@@ -23,6 +23,11 @@ nav a {
     text-transform: uppercase;
 }
 
+ul {
+    margin: 20px;
+    text-decoration: none;
+}
+
 h1 {
     color: brown;
 }

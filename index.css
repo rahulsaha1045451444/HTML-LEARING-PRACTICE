@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background: #ffe602;
+    position: fixed;
+    height: 2vh;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+#page1{
+    background: #bcff02;
+    height: 100vh;
+    width: 100%;
+}
+
+
+#page2{
+    background: #02ffff;
+    height: 100vh;
+    width: 100%;
+}
+
+#page3{
+    background: #1b02ff;
+    height: 100vh;
+    width: 100%;}
+#page4{
+    background: #ff02c0;
+    height: 100vh;
+    width: 100%;}
+#page5{
+    background: #89ff02;
+    height: 100vh;
+    width: 100%;}
+#page6{
+    background: #ffbc02;
+    height: 100vh;
+    width: 100%;}
