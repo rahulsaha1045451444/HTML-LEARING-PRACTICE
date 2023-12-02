@@ -19,6 +19,36 @@ nav {
     background-color: rgba(1, 175, 255, 0.253);
 }
 
+#imgflex{
+    display: flex;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #but {
     background-color: rgba(7, 165, 238, 0.253);
     height: 100px;
