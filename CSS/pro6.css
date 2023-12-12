@@ -3,10 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-a{
+
+a {
     text-decoration: none;
     color: black;
 }
+
 nav a {
     color: rgb(255, 1, 1);
 }
@@ -15,15 +17,74 @@ nav {
     width: 100%;
     position: fixed;
     display: flex;
+    flex-wrap: nowrap;
     justify-content: space-around;
-    background-color: rgba(1, 175, 255, 0.253);
+    background-color: rgb(1, 175, 255);
 }
 
-#imgflex{
+#imgflex {
+    border: 2px solid rgb(0, 0, 0);
+    height: 250px;
+    width: 350px;
     display: flex;
-    
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
+#box-container {
+    height: 140px;
+    width: 400px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+
+.box {
+    border: 2px solid rgb(0, 0, 0);
+    height: 100px;
+    width: 100px;
+}
+
+#box1 {
+    background-color: rgb(255, 0, 47);
+}
+
+#box2 {
+    background-color: rgb(0, 255, 13);
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+#box3 {
+    background-color: rgb(17, 0, 255);
+}
+
+#media-box {
+    margin: 50px;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(0, 255, 0);
+    border: 2px solid black;
+}
+
+@media screen and (min-width: 300px) {
+
+    /* minimum width = start 
+    maximum width = end*/
+    #media-box {
+        background-color: rgb(255, 0, 0);
+    }
+}
+
+@media screen and (min-width: 400px) {
+    #media-box {
+        background-color: rgb(0, 0, 255);
+    }
+}
 
 
 

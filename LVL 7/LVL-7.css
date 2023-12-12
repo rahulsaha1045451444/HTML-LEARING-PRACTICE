@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pseudo {
+    margin: 10px;
+    height: 25px;
+    width: 100px;
+    background-color: aquamarine;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    /* transition */
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 10ms;
+}
+/* for hover */
+.pseudo:hover {
+    background-color: rgb(255, 0, 0);
+}
+/* for active */
+.pseudo:active {
+    background-color: rgb(10, 161, 78);
+}
